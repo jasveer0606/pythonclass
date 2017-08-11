@@ -1,2 +1,2 @@
-# pythonclass
-Solutions for the 15IT322E Python Programming class
+# 15IT322E Python Programming
+Solutions for stuff discussed in class
