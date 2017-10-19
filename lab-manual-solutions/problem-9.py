@@ -5,7 +5,7 @@ conn = sqlite3.connect('example.db')
 curs = conn.cursor()
 
 #TABLES
-books={'bookid':'number(3)','titleid':'number(3)','location':'text','genre':'text',0:'books'}
+books={'bookid':'number(3)','titleid':'number(3) primary key','location':'text','genre':'text',0:'books'}
 titles={'titleid':'number(3)','title':'text','isbn':'text','pubid':'text',0:'titles'}
 publishers={'pubid':'text','name':'text','street':'text','zip':'text',0:'publishers'}
 zipcodes={'zip':'text','city':'text','state':'text','zipcode':'text',0:'zipcodes'}
